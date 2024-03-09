@@ -1,0 +1,128 @@
+
+.header .header-top{
+    padding: 8px;
+    background-color: var(--color-one);
+    text-align: center;
+    color: var(--color-two);
+    font-size: 18px;
+}
+.header .inner-wrap{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header .inner-logo{
+    display: flex;
+    align-items: center;
+}
+.header .inner-logo  span{
+    color: var(--color-one);
+    font-size: 20px;
+}
+.header .inner-menu ul li{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    color: var(--color-one);
+}
+.header .inner-contact{
+    font-size: 18px;
+    color: var(--color-one);
+}
+.header ul{
+    list-style-type: none;
+    display: flex;
+}
+.header a {
+    text-decoration: none;
+}
+.header .inner-social i{
+    font-size: 30px;
+}
+.header .inner-social ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.section-one{
+    background-color: #E6E6E6;
+    padding: 100px 0;
+}
+.section-one .inner-wrap{
+    display: flex; 
+}
+.section-one .inner-content{
+    width: 50%;
+}
+.section-one .inner-content .inner-title{
+    font-size:60px;
+    color: var(--color-one);
+}
+.section-one .inner-content .inner-desc{
+    font-size:22px;
+    color: var(--color-one);
+    margin-bottom: 5px;
+}
+.section-one  .inner-list{
+    display: flex;
+}
+.section-one .inner-item {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.section-one .inner-item i {
+    margin-right: 5px;
+    font-size: 30px;
+}
+.section-one .inner-image{
+    width: 50%;
+    position: relative;
+}
+.section-one .inner-image .inner-sale{
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    width: 150px;
+    height: 150px;
+    background-color: var(--color-two);
+    color: var(--color-text);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-one .inner-image .inner-sale span:nth-child(1){
+    font-size: 40px;
+    font-weight: 500;
+}
+.section-one .inner-image .inner-sale span:nth-child(2){
+    font-size: 20px;
+    font-weight: 500;
+}
+.section-one .inner-image img {
+    height: 600px;
+    border-radius: 45%;
+}
+.section-one .button{
+    padding: 15px 30px;
+    color: red;
+    text-decoration: none;
+    background-color: var(--color-one);
+    border: 2px  solid var(--color-two);
+    border-radius: 45px;
+    font-weight: bold;
+}
+.button:hover{
+    background-color: white;
+    color: black;
+}
+.section-one .button-two{
+    background-color: var(--color-two);
+}
+.section-one .button-two:hover{
+    background-color: white;
+}
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .box{
+            color: black;
+            padding: 20px;
+            font-size: 20px;
+            text-align: center;
+            background-color: gray;
+            border: 3px white solid;
+        }
+        .sidebar-1{
+            width: 25%;
+            float: left;
+        }
+        .sidebar-2{
+            width: calc(40% - 1px);
+            float: left;
+        }
+        .sidebar-3{
+            width: 25%;
+            float:right
+        }
+        .clear-fix{
+            clear: both;
+        }
+    </style>
+
+
+    <div class="box header">Header</div>
+
+    <div class="main">
+        <div class="box sidebar-1">Sidebar1</div>
+        <div class="box sidebar-2">Article</div>
+        <div class="box sidebar-3">Sidebar2</div>
+        <div class="clear-fix"></div>
+    </div>
+
+    <div class="box footed">Footer</div>
+
+</body>
+</html>
